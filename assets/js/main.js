@@ -184,7 +184,7 @@ featuredBtns.forEach((featuredBtn) => {
 
 `;
  
-Swal.fire('Added To Cart');
+alert('Added To Cart');
 let plus1=document.querySelectorAll('.plus1');
 let mins1=document.querySelectorAll('.mins1');
 
@@ -263,7 +263,7 @@ homeButton.addEventListener("click", function () {
     
     `;
 
-    Swal.fire('Added To Cart');
+    alert('Added To Cart');
 
 
     let plus1=document.querySelectorAll('.plus1');
@@ -349,7 +349,7 @@ products__button.forEach((productBtn) => {
  
  `;
 
- Swal.fire('Added To Cart');
+alert('Added To Cart');
 
 
  let plus1=document.querySelectorAll('.plus1');
@@ -446,7 +446,7 @@ new__buttons.forEach((newBtn) => {
 </article>
 
 `;
-Swal.fire('Added To Cart');
+alert('Added To Cart');
 let plus1=document.querySelectorAll('.plus1');
 let mins1=document.querySelectorAll('.mins1');
 
